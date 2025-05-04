@@ -60,12 +60,12 @@
 3. **로컬 웹서버 실행**
     - Python 예시:  
       ```
-      python -m http.server 8080
+      python -m http.server 5500
       ```
     - 혹은 VSCode Live Server 등 사용
 
 4. **브라우저에서 접속**
-    - `http://localhost:8080` 등 등록한 도메인으로 접속
+    - `http://localhost:5500` 등 등록한 도메인으로 접속
 
 ---
 
