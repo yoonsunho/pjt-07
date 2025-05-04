@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>은행 찾기</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Kakao 지도 API (services 라이브러리 포함) -->
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=8e903c775d304544714a64969c755fe9&libraries=services"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <label>광역시/도</label>
+            <select id="province">
+                <option value="">광역시/도를 선택하세요.</option>
+            </select>
+            <label>시/군/구</label>
+            <select id="country" disabled>
+                <option value="">시/군/구를 선택하세요.</option>
+            </select>
+            <label>은행</label>
+            <select id="bank">
+                <option value="">은행을 선택하세요.</option>
+            </select>
+            <button id="searchBtn">검색</button>
+        </div>
+        <div id="map"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

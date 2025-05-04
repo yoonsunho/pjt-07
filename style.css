@@ -1,0 +1,8 @@
+body { font-family: sans-serif; }
+.container { display: flex; }
+.sidebar { width: 250px; padding: 16px; }
+#map { width: 600px; height: 500px; }
+select, button { width: 100%; margin-bottom: 12px; padding: 6px; }
+select:disabled { background-color: #f5f5f5; color: #999; }
+select option[value=""] { color: #999; }
+button { background: #fa6616; color: #fff; border: none; border-radius: 4px; }
